@@ -36,7 +36,6 @@ namespace AgendaProVoluntarios.Services.Services
             var user = new User(inputModel.FullName, inputModel.Email, inputModel.BirthDate, passwordHash, inputModel.RoleId);
 
             await _userRepository.AddAsync(user);
-            throw new NotImplementedException();
         }
 
         public async Task<LoginUserViewModel> GetUserByEmailAndPasswordAsync(string email, string password)

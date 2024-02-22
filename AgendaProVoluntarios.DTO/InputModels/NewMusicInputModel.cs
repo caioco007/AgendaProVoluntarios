@@ -8,8 +8,8 @@ namespace AgendaProVoluntarios.DTO.InputModels
 {
     public class NewMusicInputModel
     {
-        public string Name { get; private set; }
+        public string Name { get; set; }
         //Tom da música
-        public string Key { get; private set; }
+        public string Key { get; set; }
     }
 }

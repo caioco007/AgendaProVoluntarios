@@ -24,12 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AgendaProVoluntarios.Data\AgendaProVoluntarios.Data.csproj" />
     <ProjectReference Include="..\AgendaProVoluntarios.Repositories\AgendaProVoluntarios.Repositories.csproj" />
+    <ProjectReference Include="..\AgendaProVoluntarios.Services\AgendaProVoluntarios.Services.csproj" />
   </ItemGroup>
 
 </Project>
