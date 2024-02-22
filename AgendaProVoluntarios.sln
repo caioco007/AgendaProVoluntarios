@@ -5,13 +5,15 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaProVoluntarios", "AgendaProVoluntarios\AgendaProVoluntarios.csproj", "{EFE51677-F424-444A-96B8-165305A2E03B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaProVoluntarios.Data", "AgendaProVoluntarios.Data\AgendaProVoluntarios.Data.csproj", "{CE022547-881B-467C-A87B-3EE791280387}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaProVoluntarios.Data", "AgendaProVoluntarios.Data\AgendaProVoluntarios.Data.csproj", "{CE022547-881B-467C-A87B-3EE791280387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaProVoluntarios.DTO", "AgendaProVoluntarios.DTO\AgendaProVoluntarios.DTO.csproj", "{A04CBD90-3AB7-40E8-804D-1AEFD32B030F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaProVoluntarios.DTO", "AgendaProVoluntarios.DTO\AgendaProVoluntarios.DTO.csproj", "{A04CBD90-3AB7-40E8-804D-1AEFD32B030F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaProVoluntarios.Repositories", "AgendaProVoluntarios.Repositories\AgendaProVoluntarios.Repositories.csproj", "{D4191E54-5B8B-47C4-8FCC-717DDD30BA4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaProVoluntarios.Repositories", "AgendaProVoluntarios.Repositories\AgendaProVoluntarios.Repositories.csproj", "{D4191E54-5B8B-47C4-8FCC-717DDD30BA4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaProVoluntarios.Services", "AgendaProVoluntarios.Services\AgendaProVoluntarios.Services.csproj", "{40F2AFAF-3400-4AC2-A212-98083484300E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaProVoluntarios.Services", "AgendaProVoluntarios.Services\AgendaProVoluntarios.Services.csproj", "{40F2AFAF-3400-4AC2-A212-98083484300E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaProVoluntarios.UnitTestes", "AgendaProVoluntarios.UnitTestes\AgendaProVoluntarios.UnitTestes.csproj", "{DF5F9C86-E85E-4220-B013-605864214A28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{40F2AFAF-3400-4AC2-A212-98083484300E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40F2AFAF-3400-4AC2-A212-98083484300E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40F2AFAF-3400-4AC2-A212-98083484300E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5F9C86-E85E-4220-B013-605864214A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5F9C86-E85E-4220-B013-605864214A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5F9C86-E85E-4220-B013-605864214A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5F9C86-E85E-4220-B013-605864214A28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

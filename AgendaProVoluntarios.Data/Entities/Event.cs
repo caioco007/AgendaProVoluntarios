@@ -16,8 +16,8 @@ namespace AgendaProVoluntarios.Data.Entities
             Users = new List<UserEvent>();
             Musics = new List<EventMusic>();
         }
-        public DateTime EventAt { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime EventAt { get; private set; }
+        public DateTime CreatedAt { get; private set; }
 
         public List<UserEvent> Users { get; private set; }
         public List<EventMusic> Musics { get; private set; }

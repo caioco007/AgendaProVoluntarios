@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AgendaProVoluntarios.Data.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace AgendaProVoluntarios.Repositories.Interfaces
 {
     public interface IFunctionRepository
     {
+        Task<List<Function>> GetAllAsync();
     }
 }

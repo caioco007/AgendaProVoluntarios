@@ -1,5 +1,7 @@
-﻿using AgendaProVoluntarios.Data.Persistence;
+﻿using AgendaProVoluntarios.Data.Entities;
+using AgendaProVoluntarios.Data.Persistence;
 using AgendaProVoluntarios.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,5 +18,16 @@ namespace AgendaProVoluntarios.Repositories.Repositories
         {
             _dbContext = dbContext;
         }
+
+        public async Task<User> GetByIdAsync(Guid id) => await _dbContext.User.SingleOrDefaultAsync(u => u.Id == id);
+
+        public async Task AddAsync(User user)
+        {
+            await _dbContext.User.AddAsync(user);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task<User> GetUserByEmailAndPasswordAsync(string email, string passwordHash) => await _dbContext.User.SingleOrDefaultAsync(u => u.Email == email && u.Password == passwordHash);
+
     }
 }

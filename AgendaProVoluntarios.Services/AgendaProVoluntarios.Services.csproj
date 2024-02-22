@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AgendaProVoluntarios.DTO\AgendaProVoluntarios.DTO.csproj" />
+    <ProjectReference Include="..\AgendaProVoluntarios.Repositories\AgendaProVoluntarios.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>
